@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 960vw;
   margin: auto;
   overflow: hidden;
   padding: 0 3rem;
@@ -31,7 +31,6 @@ body {
 
 .showcase:before {
   content: "";
-  background-image: url('"production ID 4423711.mp4"');
   position: absolute;
   top: 0;
   left: 0;
@@ -50,11 +49,11 @@ body {
 }
 
 .showcase h1 {
-  font-size: 4rem;
+  font-size: 7vh;
 }
 
 .showcase p {
-  font-size: 1.3rem;
+  font-size: 3.5vh;
 }
 
 .btn {
@@ -88,7 +87,7 @@ body {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
+  font-size: 2vh;
   width: 25%;
 }
 
@@ -113,7 +112,7 @@ body {
   margin: 5px auto;
   padding: 3em;
   text-align: justify;
-  font-size: 10pt;
+  font-size: 1.5vh;
   overflow: auto;
   height: 90%;
 }
