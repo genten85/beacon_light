@@ -118,25 +118,33 @@ body {
 }
 
 /* Style each tab content individually */
-#Overview {background-color:rgba(13, 110, 139, .8);}
-#GIS_Certification {background-color:rgba(13, 110, 139, 0.6);}
-#Geospatial_Technologies {background-color:rgba(13, 110, 139, 0.4);}
-#Other_Projects {background-color:rgba(13, 110, 139, 0.2);}
+#Overview {
+  background-color: rgba(13, 110, 139, 0.8);
+}
+#GIS_Certification {
+  background-color: rgba(13, 110, 139, 0.6);
+}
+#Geospatial_Technologies {
+  background-color: rgba(13, 110, 139, 0.4);
+}
+#Other_Projects {
+  background-color: rgba(13, 110, 139, 0.2);
+}
 
 /* About */
 
 #about1 {
-    width: 40%;
-    float: right; /* add this */
+  width: 40%;
+  float: right; /* add this */
 }
 
 #about2 {
-    color: white;
-    width: 40%;
-    float: right; /* add this */
-    overflow: auto;
+  color: white;
+  width: 40%;
+  float: right; /* add this */
+  overflow: auto;
 }
 
 #aboutwrapper {
-    width: 100%;
+  width: 100%;
 }
